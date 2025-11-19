@@ -11,7 +11,7 @@ const HomeLayout = () => {
         <div className="relative ">
 
             {/* FIXED HEADER + NAV */}
-            <div className="fixed top-0  w-full  z-50 bg-white ">
+            <div className="fixed top-0  w-full   z-50 bg-white ">
                 <header className="mt-3">
                     <Header />
                     <section className="w-11/12 mx-auto my-3">
@@ -19,7 +19,7 @@ const HomeLayout = () => {
                     </section>
                 </header>
 
-                <nav className="w-11/12 mx-auto">
+                <nav className="w-11/12 mx-auto mb-3">
                     <Navbar />
                 </nav>
             </div>
