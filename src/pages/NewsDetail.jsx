@@ -10,7 +10,7 @@ const NewsDetail = () => {
 
     const data = useLoaderData();
 
-    console.log(data,id)
+    // console.log(data,id)
 
     const [news, setNews]=useState({});
 
