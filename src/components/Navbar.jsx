@@ -1,7 +1,7 @@
 import React, { use } from 'react';
 import { Link, NavLink } from 'react-router';
 import { AuthContext } from '../Provider/AuthContext';
-// import userIcon from '../assets/user.png'
+ import userIcon from '../assets/user.png'
 
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
 
             <div className='login-btn flex gap-5'>
-                <img className='rounded-full size-11' src={user?.photoURL} alt="" />
+                <img className='rounded-full size-11' src={user? user.photoURL : userIcon} alt="" />
 
                 {user ? 
                         <button onClick={handleSignOut} className="btn">Sign Out</button>
